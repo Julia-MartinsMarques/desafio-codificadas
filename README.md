@@ -47,7 +47,7 @@ def precompute_distances():
 
 precompute_distances()
 
-# Leitura da entrada: quantidade de casos t
+ #Leitura da entrada: quantidade de casos t
 line = sys.stdin.readline()
 if line:
   t = int(line.strip())
@@ -56,6 +56,7 @@ if line:
     for _ in range(q):
       a, b = map(int, sys.stdin.readline().split())
       print(dist[abs(a - b)])
+```
 ---
  
 ## Problema 2 — [Boy or Girl ]
@@ -76,6 +77,7 @@ if caracteres_distintos % 2 == 0:
     print("CHAT WITH HER!")
 else:
     print("IGNORE HIM!")
+```
 ---
 
 ## Problema 3 — [Watermelon]
@@ -96,6 +98,7 @@ if resto == 0:
     print("YES")
 else:
     print("NO")
+```
 ---
  
 ## IA utilizada
